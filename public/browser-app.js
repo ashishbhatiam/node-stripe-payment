@@ -1,12 +1,12 @@
 const purchase = [
-  { id: '1', name: 't-shirt', price: 1999 },
-  { id: '2', name: 'shoes', price: 4999 },
+  { id: '1', name: 't-shirt', price: 69900 },
+  { id: '2', name: 'shoes', price: 199900 },
 ];
-const total_amount = 10998;
-const shipping_fee = 1099;
+const total_amount = 269800;
+const shipping_fee = 4000;
 
 var stripe = Stripe(
-  'pk_test_51I87djFp5pnuKUXgBVIHiR36vVAWyfuyb7ckrhgyDNA1kM0GWHas9ZGUAgwJSFNUxrbyE6NwlMNmls1iGSfzHDdE00DQB3y6AH'
+  'pk_test_51LwxFMSH7caQlX5RAiu5nk3Hfb7GO9nQBYyyVijvQrTW0NIFeE4b77rUXX7spad0HVY0R6PJ0bN7nrBMLEjcGSuG00W7qsMNN3'
 );
 
 // The items the customer wants to buy
